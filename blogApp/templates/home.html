@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    {% load static %}
 <head>
     <title>My Django Site</title>
-    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
     <h1>Hello, Django!</h1>
     
-    <script src="/static/js/script.js"></script>
+    
+
 </body>
+<script src="{% static 'js/script.js' %}"></script>
+
 </html>
